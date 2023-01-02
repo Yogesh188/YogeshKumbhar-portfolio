@@ -1,0 +1,169 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
+ 
+ :root{
+    --primary-color: #86efac;
+--dark-red: #991b1b;
+--off-white: #e2e8f0;
+}
+
+body{
+    font-family: 'Lora', serif;
+    font-size: larger;
+    margin: 0px;
+}
+
+hr{
+    margin: 2.5rem 0rem;
+}
+
+
+/**Container**/
+.container{
+    padding: 0rem 1.5rem;
+
+}
+
+.container-center{
+max-width: 600px; 
+ margin: auto;
+} 
+
+/* links */
+.link{
+box-sizing: border-box;
+text-decoration: none;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    color: brown;
+}
+
+.link-secondary{
+    color: brown;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/* lists */
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 1rem;
+}
+
+
+/* navigation */
+
+.navigation{
+    background-color:var(--primary-color);
+    color:brown;
+    padding: 1rem;
+    /* border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem; */
+    border-radius: 0rem 0rem 0rem 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+    
+}
+
+.navigation .link{
+    color:brown;
+    font-size: medium;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/* header */
+
+.hero{
+    padding: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+ 
+.hero .hero-heading{
+    padding-top: 1rem;
+    text-align: center;
+    color: var(--primary-color);
+    }
+
+    .img-blog{
+        display: block;
+        padding-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+
+    /* section */
+
+    .section{
+        padding: 2rem;
+    }
+     
+    .section h1{
+        text-align: center;
+
+    }
+
+    .ow{
+        background-color: var(--off-white);
+    }
+
+    .section2 {
+        padding: 2rem;
+        margin-top:3rem;
+        margin-bottom:3rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width:1000px;
+        border-radius: 1rem;
+        
+    }
+
+
+    /* footer */
+
+    .footer{
+        background-color: var(--primary-color);
+        padding: 2rem;
+        text-align: center;
+        color: brown;
+        font-size: medium;
+        border-radius: 0rem 1rem 0rem 0rem;
+        margin-top: 3rem;
+    }
+
+    .footer .link{
+        color: brown;
+    }
+
+    .footer .footer-header{
+      font-weight: bold ;
+      font-size: large;
+    }
+    .footer ul{
+        padding-inline-start: 0px;
+    }
