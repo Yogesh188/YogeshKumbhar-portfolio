@@ -71,8 +71,9 @@ text-decoration: none;
 }
 
 .navigation .nav-brand{
+    font-color:#e4e4e7;
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 2rem;
 }
 
 .navigation .nav-pills{
@@ -81,7 +82,7 @@ text-decoration: none;
 }
 
 .navigation .link{
-    color:brown;
+    color:#e4e4e7;
     font-size: medium;
 }
 
