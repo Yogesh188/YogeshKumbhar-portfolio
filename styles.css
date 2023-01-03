@@ -64,7 +64,7 @@ text-decoration: none;
 
 .navigation{
     background-color:var(--primary-color);
-    color:brown;
+    color:#e4e4e7;
     padding: 1rem;
     /* border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem; */
