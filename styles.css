@@ -3,13 +3,14 @@
  :root{
     --primary-color: #f97316;
     --dark-red: #991b1b;
-    --off-white: #e2e8f0;
+    --background: #d4d4d8;
 }
 
 body{
     font-family: 'Lora', serif;
     font-size: larger;
     margin: 0px;
+    background-color: var(--background);
 }
 
 hr{
@@ -92,8 +93,8 @@ text-decoration: none;
 
 .hero{
     padding: 2rem;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .hero .hero-img{
@@ -128,7 +129,7 @@ text-decoration: none;
     }
 
     .ow{
-        background-color: var(--off-white);
+        background-color: var(--background);
     }
 
     .section2 {
