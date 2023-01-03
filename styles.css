@@ -94,8 +94,8 @@ text-decoration: none;
 
 .hero{
     padding: 2rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .hero .hero-img{
@@ -151,13 +151,13 @@ text-decoration: none;
         background-color: var(--primary-color);
         padding: 2rem;
         text-align: center;
-        color: brown;
+        color: #e4e4e7;
         font-size: medium;
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 
     .footer .link{
-        color: brown;
+        color: #e4e4e7;
     }
 
     .footer .footer-header{
