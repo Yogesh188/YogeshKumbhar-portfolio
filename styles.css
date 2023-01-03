@@ -1,9 +1,9 @@
  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
  
  :root{
-    --primary-color: #86efac;
---dark-red: #991b1b;
---off-white: #e2e8f0;
+    --primary-color: #ea580c;
+    --dark-red: #991b1b;
+    --off-white: #e2e8f0;
 }
 
 body{
