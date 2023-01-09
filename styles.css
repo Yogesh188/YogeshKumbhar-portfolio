@@ -37,14 +37,14 @@ text-decoration: none;
 
 .link-primary {
     background-color: var(--primary-color);
-    margin-top: 2rem;
+    margin-top: 5rem;
     border-radius: 0.5rem;
     color: brown;
 }
 
 .link-secondary{
     color: brown;
-    margin-top: 2rem;
+    margin-top: 5rem;
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
