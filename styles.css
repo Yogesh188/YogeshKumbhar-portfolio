@@ -144,8 +144,8 @@ text-decoration: none;
 
     #blogContainer{
         max-width:70%;
-        padding-left:2rem;
-        padding-right: 2rem;
+        padding-left:1rem;
+        padding-right: 1rem;
         text-align: justify;
         line-height: 1.8;
         margin: auto;
