@@ -143,11 +143,12 @@ text-decoration: none;
     /* Blog */
 
     #blogContainer{
-        max-width:80%;
-        padding-left:3rem;
-        padding-right: 1rem;
+        max-width:70%;
+        padding-left:2rem;
+        padding-right: 2rem;
         text-align: justify;
         line-height: 1.8;
+        margin: auto;
     }
 
     /* footer */
