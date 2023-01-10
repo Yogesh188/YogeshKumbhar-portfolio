@@ -14,14 +14,13 @@ body{
 }
 
 hr{
-    margin: 2.5rem 0rem;
+    margin: 1rem 0rem;
 }
 
 
 /**Container**/
 .container{
-    padding: 0rem 1.5rem;
-
+    padding: 0rem 1rem;
 }
 
 .container-center{
@@ -40,6 +39,7 @@ text-decoration: none;
     margin-top: 5rem;
     border-radius: 0.5rem;
     color: brown;
+    padding: 0.7rem;
 }
 
 .link-secondary{
@@ -47,6 +47,7 @@ text-decoration: none;
     margin-top: 5rem;
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    padding: 0.7rem;
 }
 
 /* lists */
@@ -93,7 +94,7 @@ text-decoration: none;
 .hero{
     padding: 1rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
 }
 
 .hero .hero-img{
@@ -119,7 +120,7 @@ text-decoration: none;
     /* section */
 
     .section{
-        padding: 2rem;
+        padding: 1rem;
     }
      
     .section h1{
@@ -142,6 +143,15 @@ text-decoration: none;
         
     }
 
+
+    /* Blog */
+
+    #blogContainer{
+        max-width:80%;
+        padding-left:5rem;
+        text-align: justify;
+        line-height: 1.6;
+    }
 
     /* footer */
 
