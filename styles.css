@@ -142,6 +142,12 @@ text-decoration: none;
 
     /* Blog */
 
+    #blogPage{
+        max-width:70%;
+        margin: auto;
+    }
+    
+    
     #blogContainer{
         max-width:70%;
         padding-left:1rem;
@@ -150,6 +156,8 @@ text-decoration: none;
         line-height: 1.8;
         margin: auto;
     }
+
+
 
     /* footer */
 
